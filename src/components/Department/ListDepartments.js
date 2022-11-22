@@ -31,7 +31,7 @@ class ListDepartments extends Component {
     const { departments } = this.props.department;
     const { department } = this.props.department;
     if (verification !== prevProps.department.verification) {
-      console.log("Entre");
+      //console.log("Entre");
       departments.map((depart) => {
         if (depart.id === department.id) {
           (depart.title = department.title), (depart.body = department.body);
